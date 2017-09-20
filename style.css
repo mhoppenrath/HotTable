@@ -89,8 +89,13 @@ footer {
 
 .links-wrapper {
     font-family: 'Mallanna', sans-serif;
-    color: #BFA483;
+    color: #70522E;
     text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-self: flex-end;
 }
 
 .reservation-wrapper {
@@ -141,4 +146,18 @@ footer {
 
 .form-control:focus {
     outline: 0;
+}
+
+.tables-wrapper {
+    min-height: 500px;
+    min-width: 60%;
+}
+
+.res-wrapper {
+    min-height: 250px;
+}
+
+.wait-wrapper {
+    min-height: 250px;
+
 }
