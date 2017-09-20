@@ -92,3 +92,53 @@ footer {
     color: #BFA483;
     text-decoration: none;
 }
+
+.reservation-wrapper {
+
+}
+
+.panel-wrapper {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.panel-heading {
+    font-family: 'Mallanna', sans-serif;
+    color: #70522E;
+    font-size: 1.2em;
+}
+
+.panel-title {
+    font-size: 1.3em;
+    margin-bottom: 20px;
+}
+
+.panel-body {
+
+}
+
+.form-group {
+    font-family: 'Mallanna', sans-serif;
+    color: #70522E;
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-control {
+    width: 400px;
+    margin: 5px;
+    font-family: 'Mallanna', sans-serif;
+    color: #70522E;
+    font-size: 1.2em;
+    background-color: #BFA483;
+    border: 0;
+    padding: 5px;
+}
+
+.form-control:focus {
+    outline: 0;
+}
