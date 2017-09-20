@@ -16,8 +16,10 @@ var tables = [{
 }]
 
 
-app.get("/home", function(req, res) {
-  res.sendFile(path.join(__dirname +'/home.html'))
+app.get("/", function(req, res) {
+  res.sendFile(path.join(__dirname +'/home.html'));
+  res.sendFile(path.join(__dirname +'/data/reset'));
+  res.sendFile(path.join(__dirname +'/data/style'));
 });
 app.get("/reserve", function(req,res) {
   res.sendFile(path.join(__dirname +'/reserve.html'))
